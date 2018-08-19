@@ -38,3 +38,7 @@ function removeElementFromEndOfArray(chocolateBars){
 function addElementToEndOfArray(chocolateBars, candyString){
   return [... "candyString"];
 }
+function removeElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.shift();
+  return chocolateBars;
+}
