@@ -30,8 +30,8 @@ function removeElementFromEndOfArray(chocolateBars){
   var newArray = chocolateBars.slice(0,2);
   return newArray;
 }
-function addElementToEndOfArray(chocolateBars, candyString){
-  return [... "candyString"];
+function addElementToEndOfArray(chocolateBars, foo){
+  return [... "foo"];
 }
 function removeElementFromBeginningOfArray(chocolateBars){
   var newArray= chocolateBars.slice(1);
