@@ -1,5 +1,5 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
-var candyString = "foo"
+var candyString = "foo";
 
 function addElementToBeginningOfArray(chocolateBars,CandyString){
   var newArray= [candyString,... chocolateBars];
@@ -31,7 +31,7 @@ function removeElementFromEndOfArray(chocolateBars){
   return newArray;
 }
 function addElementToEndOfArray(chocolateBars, candyString){
-  return [...`chocolateBars`,`candyString`];
+  return [...chocolateBars,candyString];
 }
 function removeElementFromBeginningOfArray(chocolateBars){
   var newArray= chocolateBars.slice(1);
