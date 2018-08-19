@@ -10,12 +10,6 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars,candyString){
   chocolateBars.unshift(candyString);
   return chocolateBars;}
 
-  function addElementToBeginningOfArray(chocolateBars,candyString){
-    array.unshift(candyString);
-    console.log(array);
-    return chocolateBars;
-  }
-
 function accessElementInArray(array,index){
   return array[index];
 }
