@@ -34,6 +34,6 @@ function removeElementFromEndOfArray(chocolateBars){
   chocolateBars.slice();
   return chocolateBars;
 }
-function addElementToEndOfArray(chocolateBars, candyString){
-  return [... skittles, candyString];
+function addElementToEndOfArray(chocolateBars, candy){
+  return [..."skittles", "candy"];
 }
