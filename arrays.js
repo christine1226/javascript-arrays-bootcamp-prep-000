@@ -31,7 +31,7 @@ function removeElementFromEndOfArray(chocolateBars){
   return newArray;
 }
 function addElementToEndOfArray(chocolateBars, candyString){
-  var newArray= [... "skittles", "candystring"];
+  var newArray= [..."candystring"];
   return newArray;
 }
 function removeElementFromBeginningOfArray(chocolateBars){
